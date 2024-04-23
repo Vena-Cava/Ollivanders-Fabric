@@ -1,4 +1,4 @@
-package com.example;
+package com.venacava.ollivanders;
 
 import net.fabricmc.api.ClientModInitializer;
 
