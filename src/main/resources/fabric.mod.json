@@ -19,7 +19,7 @@
 			"com.venacava.ollivanders.Ollivanders"
 		],
 		"client": [
-			"com.venacava.ollivanders.ExampleModClient"
+          "com.venacava.ollivanders.OllivandersClient"
 		]
 	},
 	"mixins": [

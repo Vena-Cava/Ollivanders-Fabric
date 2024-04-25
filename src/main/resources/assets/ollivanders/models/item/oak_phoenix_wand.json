@@ -1,7 +1,0 @@
-{
-	"parent": "ollivanders:item/wand",
-	"textures": {
-		"1": "minecraft:block/oak_planks",
-		"2": "ollivanders:item/phoenix_core"
-	}
-}

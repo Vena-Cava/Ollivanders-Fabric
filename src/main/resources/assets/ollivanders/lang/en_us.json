@@ -1,0 +1,39 @@
+{
+	"item.ollivanders.wand": "Wand",
+
+	"block.ollivanders.wand_station": "Wand Station",
+
+	"item.ollivanders.dragon_heart": "Dragon Heart",
+	"item.ollivanders.dragon_heartstring": "Dragon Heartstring",
+	"item.ollivanders.granian_hair": "Granian Hair",
+	"item.ollivanders.phoenix_feather": "Phoenix Feather",
+	"item.ollivanders.snidget_feather": "Snidget Feather",
+	"item.ollivanders.thunderbird_feather": "Thunderbird Feather",
+	"item.ollivanders.unicorn_hair": "Unicorn Hair",
+	"item.ollivanders.zouwu_whisker": "Zouwu Whisker",
+
+	"item.ollivanders.scroll_accio": "§eSpell Scroll",
+	"item.ollivanders.scroll_avada_kedavra": "§eSpell Scroll",
+	"item.ollivanders.scroll_episkey": "§eSpell Scroll",
+	"item.ollivanders.scroll_expecto_patronum": "§eSpell Scroll",
+	"item.ollivanders.scroll_expelliarmus": "§eSpell Scroll",
+	"item.ollivanders.scroll_immobulus": "§eSpell Scroll",
+	"item.ollivanders.scroll_lumos_solem": "§eSpell Scroll",
+	"item.ollivanders.scroll_wingardium_leviosa": "§eSpell Scroll",
+
+	"item.ollivanders.wand.wood_tooltip": "§7Oak",
+	"item.ollivanders.wand.core_tooltip": "§7Phoenix Feather",
+
+	"item.ollivanders.scroll_accio.tooltip": "§7Accio",
+	"item.ollivanders.scroll_avada_kedavra.tooltip": "§7Avada Kedavra",
+	"item.ollivanders.scroll_episkey.tooltip": "§7Episkey",
+	"item.ollivanders.scroll_expecto_patronum.tooltip": "§7Expecto Patronum",
+	"item.ollivanders.scroll_expelliarmus.tooltip": "§7Expelliarmus",
+	"item.ollivanders.scroll_immobulus.tooltip": "§7Immobulus",
+	"item.ollivanders.scroll_lumos_solem.tooltip": "§7Lumos Solem",
+	"item.ollivanders.scroll_wingardium_leviosa.tooltip": "§7Wingardium Leviosa",
+
+	"container.ollivanders.wand_station": "Wand Station",
+	"itemGroup.ollivanders.magical_ingredients_group": "Magical Ingredients",
+	"itemGroup.ollivanders.spell_scroll_group": "Spell Scrolls"
+}

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "WLW",
+    "PUD",
+    "W W"
+  ],
+  "key": {
+    "W": {
+      "tag": "minecraft:planks"
+    },
+    "L": {
+      "item": "minecraft:leather"
+    },
+    "P": {
+      "item": "ollivanders:phoenix_feather"
+    },
+    "U": {
+      "item": "ollivanders:unicorn_hair"
+    },
+    "D": {
+      "item": "ollivanders:dragon_heartstring"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "ollivanders:wand_station"
+  }
+}
