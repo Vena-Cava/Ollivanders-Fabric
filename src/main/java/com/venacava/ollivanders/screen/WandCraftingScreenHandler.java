@@ -51,7 +51,7 @@ public class WandCraftingScreenHandler extends AbstractRecipeScreenHandler<Recip
         this.addSlot(new CraftingResultSlot(playerInventory.player, this.input, this.result, 0, 80, 56));
         for (i = 0; i < 3; ++i) {
             for (j = 0; j < 3; ++j) {
-                this.addSlot(new Slot(this.input, j + i, 30 + j * 62, 15 + i * 18));
+                this.addSlot(new Slot(this.input, j + i, 62 + j * 18, 15 + i * 18));
             }
         }
         for (i = 0; i < 3; ++i) {

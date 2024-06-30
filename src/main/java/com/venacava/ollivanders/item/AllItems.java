@@ -20,7 +20,7 @@ public class AllItems {
     public static final Item UNICORN_HAIR = registerItem("unicorn_hair", new Item(new Item.Settings()));
     public static final Item ZOUWU_WHISKER = registerItem("zouwu_whisker", new Item(new Item.Settings()));
 
-    private static void addItemsToSearchTabItemGroup(FabricItemGroupEntries entries) {
+    private static void addItemsToIngredientsTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(DRAGON_HEART);
         entries.add(DRAGON_HEARTSTRING);
         entries.add(GRANIAN_HAIR);
@@ -39,6 +39,6 @@ public class AllItems {
     public static void registerAllItems() {
         Ollivanders.LOGGER.info("Registering Basic Items for " + Ollivanders.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(AllItems::addItemsToSearchTabItemGroup);
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(AllItems::addItemsToIngredientsTabItemGroup);
     }
 }

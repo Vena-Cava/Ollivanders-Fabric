@@ -1,0 +1,39 @@
+{
+  "fabric:load_conditions": [
+
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create"
+      ]
+    }
+  ],
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "c:redstone_dusts"
+    },
+    {
+      "fluid": "minecraft:water",
+      "nbt": {},
+      "amount": 27000
+    },
+    {
+      "amount": 1000,
+      "fluidTag": "c:milk"
+    },
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "results": [
+    {
+      "item": "ollivanders:butterbeer",
+      "count": 1
+    }
+  ],
+  "heatRequirement": "none"
+}

@@ -23,7 +23,7 @@
 		]
 	},
 	"mixins": [
-		"modid.mixins.json",
+      "ollivanders.mixins.json",
 		{
 			"config": "modid.client.mixins.json",
 			"environment": "client"

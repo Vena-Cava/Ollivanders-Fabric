@@ -2,10 +2,7 @@ package com.venacava.ollivanders;
 
 import com.venacava.ollivanders.block.AllBlocks;
 import com.venacava.ollivanders.block.workstations.WandStationBlock;
-import com.venacava.ollivanders.item.AllItemGroups;
-import com.venacava.ollivanders.item.AllItems;
-import com.venacava.ollivanders.item.AllSpellItems;
-import com.venacava.ollivanders.item.WandItem;
+import com.venacava.ollivanders.item.*;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -29,6 +26,7 @@ public class Ollivanders implements ModInitializer {
 		AllBlocks.registerAllBlocks();
 
 		AllSpellItems.registerSpellItems();
+		AllFoodItems.registerAllFoodItems();
 		WandItem.registerWandItem();
 		AllItemGroups.registerItemGroups();
 		WandStationBlock.registerWandStation();

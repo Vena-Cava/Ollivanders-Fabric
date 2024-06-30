@@ -3,7 +3,8 @@
 	"package": "com.venacava.ollivanders.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-      "ExampleMixin"
+		"FrogEatCocoaMixin",
+		"OllivandersMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
